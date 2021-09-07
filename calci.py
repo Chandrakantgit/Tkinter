@@ -1,6 +1,6 @@
 from tkinter import *
 root=Tk()
-root.title("Simple calculator For LEarning")
+root.title("Simple calculator")
 e=Entry(root,width=35)
 e.grid(row=0,column=0,columnspan=3,padx=5)
 
