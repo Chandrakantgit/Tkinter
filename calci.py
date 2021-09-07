@@ -3,7 +3,7 @@ root=Tk()
 root.title("Simple calculator")
 e=Entry(root,width=35)
 e.grid(row=0,column=0,columnspan=3,padx=5)
-#e.insert(0,)
+
 def button_click(number):
 	#e.delete(0,END)
 	current=e.get()
